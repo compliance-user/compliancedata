@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000034",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000034",
+  "Control Name": "3.17 Ensure write level Object Storage logging is enabled for all buckets",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "Enabling an Object Storage write log, the requestAction property would contain values of PUT, POST, or DELETE. This will provide you more visibility into changes to objects in your buckets.",
+  "control_attributes": {
+    "Control": "3.17 Ensure write level Object Storage logging is enabled for all buckets",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "Enabling an Object Storage write log, the requestAction property would contain values of PUT, POST, or DELETE. This will provide you more visibility into changes to objects in your buckets."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000007",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000007",
+  "Control Name": "1.7 Ensure MFA is enabled for all users with a console password",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "Multi factor authentication adds an extra layer of security during the login process and makes it harder for unauthorized users to gain access to OCI resources.",
+  "control_attributes": {
+    "Control": "1.7 Ensure MFA is enabled for all users with a console password",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "Multi factor authentication adds an extra layer of security during the login process and makes it harder for unauthorized users to gain access to OCI resources."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

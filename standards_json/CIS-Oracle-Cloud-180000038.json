@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000038",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000038",
+  "Control Name": "5.2 Ensure no resources are created in the root compartment",
+  "Control Family": "5 Asset Management",
+  "Control Statement": "Placing resources into a compartment will allow you to organize and have more granular access controls to your cloud resources.",
+  "control_attributes": {
+    "Control": "5.2 Ensure no resources are created in the root compartment",
+    "Security_Category": "5 Asset Management",
+    "Control_Description": "Placing resources into a compartment will allow you to organize and have more granular access controls to your cloud resources."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

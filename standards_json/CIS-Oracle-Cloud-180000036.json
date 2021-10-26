@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000036",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000036",
+  "Control Name": "4.2 Ensure Object Storage Buckets are encrypted with a Customer Managed Key (CMK)",
+  "Control Family": "4 Object Storage",
+  "Control Statement": "Encryption of Object Storage buckets with a Customer Managed Key (CMK) provides an additional level of security on your data by allowing you to manage your own encryption key lifecycle management for the bucket.",
+  "control_attributes": {
+    "Control": "4.2 Ensure Object Storage Buckets are encrypted with a Customer Managed Key (CMK)",
+    "Security_Category": "4 Object Storage",
+    "Control_Description": "Encryption of Object Storage buckets with a Customer Managed Key (CMK) provides an additional level of security on your data by allowing you to manage your own encryption key lifecycle management for the bucket."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

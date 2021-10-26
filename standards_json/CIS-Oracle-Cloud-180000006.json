@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000006",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000006",
+  "Control Name": "1.6 Ensure IAM password policy prevents password reuse",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is recommended the password policy prevent the reuse of passwords.",
+  "control_attributes": {
+    "Control": "1.6 Ensure IAM password policy prevents password reuse",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is recommended the password policy prevent the reuse of passwords."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

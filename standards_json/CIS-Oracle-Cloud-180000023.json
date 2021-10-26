@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000023",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000023",
+  "Control Name": "3.6 Ensure a notification is configured for IAM group changes",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Groups are created, updated or deleted.",
+  "control_attributes": {
+    "Control": "3.6 Ensure a notification is configured for IAM group changes",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Groups are created, updated or deleted."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

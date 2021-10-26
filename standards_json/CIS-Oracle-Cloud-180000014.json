@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000014",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000014",
+  "Control Name": "2.2 Ensure no security lists allow ingress from 0.0.0.0/0 to port 3389",
+  "Control Family": "2 Networking",
+  "Control Statement": "Removing unfettered connectivity to remote console services, such as Remote Desktop Protocol (RDP), reduces a server's exposure to risk.",
+  "control_attributes": {
+    "Control": "2.2 Ensure no security lists allow ingress from 0.0.0.0/0 to port 3389",
+    "Security_Category": "2 Networking",
+    "Control_Description": "Removing unfettered connectivity to remote console services, such as Remote Desktop Protocol (RDP), reduces a server's exposure to risk."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

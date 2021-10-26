@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000005",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000005",
+  "Control Name": "1.5 Ensure IAM password policy expires passwords within 365 days",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is recommended that the password policy expire passwords after 365 and are changed immediately based on events.",
+  "control_attributes": {
+    "Control": "1.5 Ensure IAM password policy expires passwords within 365 days",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is recommended that the password policy expire passwords after 365 and are changed immediately based on events."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

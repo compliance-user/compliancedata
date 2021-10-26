@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000024",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000024",
+  "Control Name": "3.7 Ensure a notification is configured for IAM policy changes",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Policies are created, updated or deleted.",
+  "control_attributes": {
+    "Control": "3.7 Ensure a notification is configured for IAM policy changes",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Policies are created, updated or deleted."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

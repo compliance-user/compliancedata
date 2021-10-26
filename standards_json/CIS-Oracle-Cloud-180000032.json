@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000032",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000032",
+  "Control Name": "3.15 Ensure Cloud Guard is enabled in the root compartment of the tenancy",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "Cloud Guard provides an automated means to monitor a tenancy for resources that are configured in an insecure manner as well as risky network activity from these resources.",
+  "control_attributes": {
+    "Control": "3.15 Ensure Cloud Guard is enabled in the root compartment of the tenancy",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "Cloud Guard provides an automated means to monitor a tenancy for resources that are configured in an insecure manner as well as risky network activity from these resources."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

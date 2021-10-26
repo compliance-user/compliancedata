@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000031",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000031",
+  "Control Name": "3.14 Ensure VCN flow logging is enabled for all subnets",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "VCN flow logs record details about traffic that has been accepted or rejected based on the security list rule.",
+  "control_attributes": {
+    "Control": "3.14 Ensure VCN flow logging is enabled for all subnets",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "VCN flow logs record details about traffic that has been accepted or rejected based on the security list rule."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

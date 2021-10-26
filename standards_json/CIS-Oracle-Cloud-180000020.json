@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000020",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000020",
+  "Control Name": "3.3 Create at least one notification topic and subscription to receive monitoring alerts",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "Creating one or more notification topics allow administrators to be notified of relevant changes made to OCI infrastructure.",
+  "control_attributes": {
+    "Control": "3.3 Create at least one notification topic and subscription to receive monitoring alerts",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "Creating one or more notification topics allow administrators to be notified of relevant changes made to OCI infrastructure."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

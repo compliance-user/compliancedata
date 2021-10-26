@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000030",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000030",
+  "Control Name": "3.13 Ensure a notification is configured for changes to network gateways",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when Network Gateways are created, updated, deleted, attached, detached, or moved.",
+  "control_attributes": {
+    "Control": "3.13 Ensure a notification is configured for changes to network gateways",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when Network Gateways are created, updated, deleted, attached, detached, or moved."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000026",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000026",
+  "Control Name": "3.9 Ensure a notification is configured for VCN changes",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when Virtual Cloud Networks are created, updated or deleted.",
+  "control_attributes": {
+    "Control": "3.9 Ensure a notification is configured for VCN changes",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when Virtual Cloud Networks are created, updated or deleted."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

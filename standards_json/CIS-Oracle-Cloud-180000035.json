@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000035",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000035",
+  "Control Name": "4.1 Ensure no Object Storage buckets are publicly visible",
+  "Control Family": "4 Object Storage",
+  "Control Statement": "Removing unfettered reading of objects in a bucket reduces an organization's exposure to data loss.",
+  "control_attributes": {
+    "Control": "4.1 Ensure no Object Storage buckets are publicly visible",
+    "Security_Category": "4 Object Storage",
+    "Control_Description": "Removing unfettered reading of objects in a bucket reduces an organization's exposure to data loss."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

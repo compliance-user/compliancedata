@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000004",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000004",
+  "Control Name": "1.4 Ensure IAM password policy requires minimum length of 14 or greater",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is recommended the password policy require a minimum password length 14 characters and contain 1 non-alphabetic character (Number or “Special Character”).",
+  "control_attributes": {
+    "Control": "1.4 Ensure IAM password policy requires minimum length of 14 or greater",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is recommended the password policy require a minimum password length 14 characters and contain 1 non-alphabetic character (Number or “Special Character”)."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

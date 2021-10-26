@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000017",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000017",
+  "Control Name": "2.5 Ensure the default security list of every VCN restricts all traffic except ICMP",
+  "Control Family": "2 Networking",
+  "Control Statement": "Removing unfettered connectivity to remote console services, such as SSH on port 22, reduces a server's exposure to unauthorized access.",
+  "control_attributes": {
+    "Control": "2.5 Ensure the default security list of every VCN restricts all traffic except ICMP",
+    "Security_Category": "2 Networking",
+    "Control_Description": "Removing unfettered connectivity to remote console services, such as SSH on port 22, reduces a server's exposure to unauthorized access."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

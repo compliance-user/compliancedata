@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000010",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000010",
+  "Control Name": "1.10 Ensure user auth tokens rotate within 90 days or less",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is important to secure and rotate an auth token every 90 days or less as it provides the same level of access to APIs that do not support the OCI signature-based authentication as the user associated to it.",
+  "control_attributes": {
+    "Control": "1.10 Ensure user auth tokens rotate within 90 days or less",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is important to secure and rotate an auth token every 90 days or less as it provides the same level of access to APIs that do not support the OCI signature-based authentication as the user associated to it."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

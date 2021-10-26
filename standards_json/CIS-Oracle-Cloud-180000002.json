@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000002",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000002",
+  "Control Name": "1.2 Ensure permissions on all resources are given only to the tenancy administrator group",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "Permission to manage all resources in a tenancy should be limited to a small number of users in the Administrators group for break-glass situations and to set up users/groups/policies when a tenancy is created.",
+  "control_attributes": {
+    "Control": "1.2 Ensure permissions on all resources are given only to the tenancy administrator group",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "Permission to manage all resources in a tenancy should be limited to a small number of users in the Administrators group for break-glass situations and to set up users/groups/policies when a tenancy is created."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

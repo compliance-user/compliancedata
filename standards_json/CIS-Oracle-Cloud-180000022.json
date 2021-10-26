@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000022",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000022",
+  "Control Name": "3.5 Ensure a notification is configured for IdP group mapping changes",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when Identity Provider Group Mappings are created, updated or deleted.",
+  "control_attributes": {
+    "Control": "3.5 Ensure a notification is configured for IdP group mapping changes",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when Identity Provider Group Mappings are created, updated or deleted."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

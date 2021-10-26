@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000025",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000025",
+  "Control Name": "3.8 Ensure a notification is configured for user changes",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Users are created, updated, deleted, capabilities updated, or state updated.",
+  "control_attributes": {
+    "Control": "3.8 Ensure a notification is configured for user changes",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when IAM Users are created, updated, deleted, capabilities updated, or state updated."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

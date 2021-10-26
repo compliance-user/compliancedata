@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000012",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000012",
+  "Control Name": "1.12 Ensure all OCI IAM user accounts have a valid and current email address",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "Having a valid and current email address associated with an OCI IAM local user account allows you to tie the account to identity in your organization. It also allows that user to reset their password if it is forgotten or lost.",
+  "control_attributes": {
+    "Control": "1.12 Ensure all OCI IAM user accounts have a valid and current email address",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "Having a valid and current email address associated with an OCI IAM local user account allows you to tie the account to identity in your organization. It also allows that user to reset their password if it is forgotten or lost."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

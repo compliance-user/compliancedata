@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000037",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000037",
+  "Control Name": "5.1 Create at least one compartment in your tenancy to store cloud resources",
+  "Control Family": "5 Asset Management",
+  "Control Statement": "Compartments are a logical group that adds an extra layer of isolation, organization and authorization making it harder for unauthorized users to gain access to OCI resources.",
+  "control_attributes": {
+    "Control": "5.1 Create at least one compartment in your tenancy to store cloud resources",
+    "Security_Category": "5 Asset Management",
+    "Control_Description": "Compartments are a logical group that adds an extra layer of isolation, organization and authorization making it harder for unauthorized users to gain access to OCI resources."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

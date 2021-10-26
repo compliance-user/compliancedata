@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000019",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000019",
+  "Control Name": "3.2 Ensure default tags are used on resources",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup default tags early on to ensure all created resources will get tagged",
+  "control_attributes": {
+    "Control": "3.2 Ensure default tags are used on resources",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup default tags early on to ensure all created resources will get tagged"
+  },
+  "is_deleted": false,
+  "system_default": true
+}

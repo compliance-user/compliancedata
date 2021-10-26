@@ -1,0 +1,152 @@
+{
+  "compliance_uri": "AC3-v-01/0000",
+  "compliance_control_number": "110000644",
+  "compliance_control_uri": "AC3-v-01/0000/110000644",
+  "Control Name": "SC-17 PUBLIC KEY INFRASTRUCTURE CERTIFICATES",
+  "Control Family": "SYSTEM AND COMMUNICATIONS PROTECTION",
+  "Control Statement": "The organization issues public key certificates under an [Assignment: organization-defined certificate policy] or obtains public key certificates from an approved service provider.",
+  "control_attributes": {
+    "Control Name": "SC-17 PUBLIC KEY INFRASTRUCTURE CERTIFICATES",
+    "Control Family": "SYSTEM AND COMMUNICATIONS PROTECTION",
+    "Control Statement": "The organization issues public key certificates under an [Assignment: organization-defined certificate policy] or obtains public key certificates from an approved service provider."
+  },
+  "control_action_attributes": {
+    "nature": "Automated",
+    "category": "",
+    "action_method": "Policy",
+    "purpose": "Preventive",
+    "level": "Organization",
+    "Control Baseline": "Basic",
+    "classification": "Technical"
+  },
+  "service_resource_mapping": [],
+  "control_control_mapping": {
+    "compliance_control_mapped_uri": [
+      "NIST-SP800-53/0006/600000694",
+      "ISO-27001/0011/1100000040",
+      "Fedramp-Control-Moderate/0010/1000000285",
+      "Fedramp-Control-High/0009/900000370",
+      "ISO/0001/100000030",
+      "AWS-WAF/0016/160000128",
+      "CIS-AWS/0007/700000019",
+      "CIS-Azure/0003/300000104",
+      "CIS-Azure/0003/300000105",
+      "CIS-GCP/0014/1400000010",
+      "SOC2/0017/1700000122",
+      "CIS-Oracle-Cloud/0018/180000033"
+    ],
+    "system_default": true,
+    "is_deleted": false
+  },
+  "control_policy_mapping": {
+    "is_deleted": false,
+    "is_parameterized": false,
+    "policy": [
+      {
+        "policy_uri": "policy/gcp_policy/global/gcp/compliance/vm/asdf",
+        "policy_name": "GCP_Monitor_Rotation_Configuration_For_KMS_Key",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_ACM_Cert_Validity",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/aaced",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_Rotate_Expiring_SSL_Client_Certificates",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/88445",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_Expired_SSL_TLS_Certificate",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/efa4d",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_SSL_TLS_Certificate_Expiry_30_Days",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/5d4a1",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_SSL_TLS_Certificate_Expiry_45_Days",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/c1610",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_SSL_TLS_Certificate_Expiry_7_Days",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/80be1",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_ACM_Certificate_Expiration_Check",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/7PXgW",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_ACM_Cert_Renew_30days_before_Expiration",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/65002",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_ACM_Cert_Renew_45days_before_Expiration",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/70baa",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_ACM_Cert_Renew_7days_before_Expiration",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/a9151",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_ACM_Certificates_with_Wildcard_Domain_Names",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/83727",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_Client_Certificate",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/25052",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_IAM_Server_Certificate_Size",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/dcabb",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_Pre_Heartbleed_Server_Certificates",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/9bd45",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "AWS_Audit_Root_Account_Active_Signing_Certificates",
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/9bb8b",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Azure_Audit_Manage_Certificates_Expirations",
+        "policy_uri": "policy/azure_policy/global/azure/compliance/others/5145e",
+        "system_default": true,
+        "is_parameterized": true
+      }
+    ]
+  },
+  "system_default": true,
+  "is_deleted": false,
+  "mode": "add_control_uri"
+}

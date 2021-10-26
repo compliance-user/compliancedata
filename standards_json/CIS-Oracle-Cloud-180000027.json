@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000027",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000027",
+  "Control Name": "3.10 Ensure a notification is configured for changes to route tables",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "It is recommended to setup an Event Rule and Notification that gets triggered when route tables are created, updated or deleted.",
+  "control_attributes": {
+    "Control": "3.10 Ensure a notification is configured for changes to route tables",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "It is recommended to setup an Event Rule and Notification that gets triggered when route tables are created, updated or deleted."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

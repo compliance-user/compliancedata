@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000008",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000008",
+  "Control Name": "1.8 Ensure user API keys rotate within 90 days or less",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is important to secure and rotate an API key every 90 days or less as it provides the same level of access that a user it is associated with has.",
+  "control_attributes": {
+    "Control": "1.8 Ensure user API keys rotate within 90 days or less",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is important to secure and rotate an API key every 90 days or less as it provides the same level of access that a user it is associated with has."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

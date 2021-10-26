@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000018",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000018",
+  "Control Name": "3.1 Ensure audit log retention period is set to 365 days",
+  "Control Family": "3 Logging and Monitoring",
+  "Control Statement": "Retaining logs for at least 365 days or more will provide the ability to respond to incidents",
+  "control_attributes": {
+    "Control": "3.1 Ensure audit log retention period is set to 365 days",
+    "Security_Category": "3 Logging and Monitoring",
+    "Control_Description": "Retaining logs for at least 365 days or more will provide the ability to respond to incidents"
+  },
+  "is_deleted": false,
+  "system_default": true
+}

@@ -1,0 +1,223 @@
+{
+  "compliance_uri": "AC3-v-01/0000",
+  "compliance_control_number": "110000147",
+  "compliance_control_uri": "AC3-v-01/0000/110000147",
+  "Control Name": "AU-3 (1) ADDITIONAL AUDIT INFORMATION",
+  "Control Family": "AUDIT AND ACCOUNTABILITY",
+  "Control Statement": "The information system generates audit records containing the following additional information: [Assignment: organization-defined additional, more detailed information].",
+  "control_attributes": {
+    "Control Name": "AU-3 (1) ADDITIONAL AUDIT INFORMATION",
+    "Control Family": "AUDIT AND ACCOUNTABILITY",
+    "Control Statement": "The information system generates audit records containing the following additional information: [Assignment: organization-defined additional, more detailed information]."
+  },
+  "control_action_attributes": {
+    "nature": "Automated",
+    "category": "Application, Network",
+    "action_method": "Policy",
+    "purpose": "Preventive",
+    "level": "Account",
+    "Control Baseline": "Basic",
+    "classification": "Technical"
+  },
+  "service_resource_mapping": [],
+  "control_control_mapping": {
+    "compliance_control_mapped_uri": [
+      "NIST-SP800-53/0006/600000232",
+      "PCI-DSS/0012/1200000163",
+      "PCI-DSS/0012/1200000164",
+      "PCI-DSS/0012/1200000165",
+      "PCI-DSS/0012/1200000166",
+      "PCI-DSS/0012/1200000167",
+      "PCI-DSS/0012/1200000168",
+      "Fedramp-Control-Moderate/0010/1000000053",
+      "Fedramp-Control-High/0009/900000066",
+      "HIPAA/0002/200000028",
+      "SOC2/0017/1700000153"
+    ],
+    "system_default": true,
+    "is_deleted": false
+  },
+  "control_policy_mapping": {
+    "is_deleted": false,
+    "is_parameterized": false,
+    "policy": [
+      {
+        "policy_uri": "policy/azure_policy/global/azure/compliance/others/ovKPS",
+        "policy_name": "Azure_Monitor_LogProfile_Collect_All_Categories",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_uri": "policy/aws_config/global/aws/compliance/others/03e75",
+        "policy_name": "AWS_Audit_CloudTrail_S3_Bucket",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_uri": "policy/azure_policy/global/azure/compliance/others/igjo7",
+        "policy_name": "Azure_Audit_Diagnostic_Setting_Specific_ResourceType",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Bastion_Creation",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/bastion/basins",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Bastion_Session_Created",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/e50d3",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_DRG_Attached_To_VCN",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/b333a",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_DRG_Created",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/89157",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_DRG_Deleted",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/1efca",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Export_Image",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/e7i2d",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_IAM_User_Capabilities_Modified",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/f2a61",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Import_Image",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/17bb3",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Internet_Gateway_Created",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/09058",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Internet_Gateway_Terminated",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/g9058",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_NSG_Delete",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/1110e",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_NSG_Egress_Rule_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/ca552",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_NSG_Ingress_Rule_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/b319c",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Route_Table_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/9a2f1",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Security_Policy_Modified",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/0b352",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Subnet_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/a58b3",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Subnet_Deleted",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/a50b1",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_Update_Image",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/374f2",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Create",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/63f31",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_DHCP_Option_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/a5fb0",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Deleted",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/vcnb0",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Local_Peering_Gateway_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/81b04",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Security_List_Created",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/13648",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Security_List_Deleted",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/24b05",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Security_List_Egress_Rules_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/0a679",
+        "system_default": true,
+        "is_parameterized": true
+      },
+      {
+        "policy_name": "Oracle_Audit_VCN_Security_List_Ingress_Rules_Changed",
+        "policy_uri": "policy/oracle_cloud_guard/global/oci/compliance/others/d6d35",
+        "system_default": true,
+        "is_parameterized": true
+      }
+    ]
+  },
+  "system_default": true,
+  "is_deleted": false,
+  "mode": "add_new_policy"
+}

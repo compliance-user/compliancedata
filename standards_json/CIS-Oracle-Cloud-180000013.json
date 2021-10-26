@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000013",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000013",
+  "Control Name": "2.1 Ensure no security lists allow ingress from 0.0.0.0/0 to port 22",
+  "Control Family": "2 Networking",
+  "Control Statement": "Removing unfettered connectivity to remote console services, such as Secure Shell (SSH), reduces a server's exposure to risk.",
+  "control_attributes": {
+    "Control": "2.1 Ensure no security lists allow ingress from 0.0.0.0/0 to port 22",
+    "Security_Category": "2 Networking",
+    "Control_Description": "Removing unfettered connectivity to remote console services, such as Secure Shell (SSH), reduces a server's exposure to risk."
+  },
+  "is_deleted": false,
+  "system_default": true
+}

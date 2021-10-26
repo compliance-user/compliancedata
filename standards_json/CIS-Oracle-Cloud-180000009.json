@@ -1,0 +1,15 @@
+{
+  "compliance_uri": "CIS-Oracle-Cloud/0018",
+  "compliance_control_number": "180000009",
+  "compliance_control_uri": "CIS-Oracle-Cloud/0018/180000009",
+  "Control Name": "1.9 Ensure user customer secret keys rotate within 90 days or less",
+  "Control Family": "1 Identity and Access Management",
+  "Control Statement": "It is important to secure and rotate an customer secret key every 90 days or less as it provides the same level of object storage access that a user is associated with has.",
+  "control_attributes": {
+    "Control": "1.9 Ensure user customer secret keys rotate within 90 days or less",
+    "Security_Category": "1 Identity and Access Management",
+    "Control_Description": "It is important to secure and rotate an customer secret key every 90 days or less as it provides the same level of object storage access that a user is associated with has."
+  },
+  "is_deleted": false,
+  "system_default": true
+}
