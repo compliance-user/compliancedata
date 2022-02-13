@@ -114,5 +114,5 @@ if __name__ == '__main__':
 # Request examples
 # get    > requetst.get('http://localhost:8001/v1/api/6208934eb9668289417fc20f/get_user')
 # post   > requests.post('http://localhost:8001/v1/api/auth/tokens/create_user', headers={'User': 'david', 'Password': '123'})
-# put    > requests.put('http://localhost:8001/v1/api/6208934eb9668289417fc20f/update_user', headers={'User': 'SamUpdated', 'password': 'sam@123'})
+# put    > requests.put('http://localhost:8001/v1/api/6208934eb9668289417fc20f/update_user', headers={'User': 'DavidBeckham', 'password': 'sam@123'})
 # delete > requests.delete('http://localhost:8001/v1/api/6208934eb9668289417fc20f/delete_user')
