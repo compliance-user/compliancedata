@@ -101,8 +101,11 @@ class Users(Resource):
     def delete(self, user_id, action_name=None):
         if user_id and action_name == 'delete_user':
             db.user.remove({'_id': ObjectId(user_id)})
-            return {'status': 202,
+            return {'status': 'succss', 'code': 202,
                     'message': 'User deleted successfully'}
+        else:
+            return {'status': 'error', 'code': 404,
+                    'message': 'Unable to remove user'}
 
 
 api.add_resource(Users, '/v1/api/<user_id>/<action_name>',
